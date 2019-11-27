@@ -15,9 +15,13 @@
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
 
-function question1() {
+$(function() {
 	// your answer here
-}
+	$('.wrapper p').css({
+		color: "blue",
+		
+	})
+})
 
 $("#button1").on('click', question1);
 
@@ -29,6 +33,7 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$(".wrapper h2").text('Abdullah Alruwaybiah')
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +47,7 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$(".falseFact li").text('True Fact')
 }
 
 $("#button3").on('click', question3);
@@ -56,6 +62,12 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question4(){
+
+	$('body').css('background', 'pink')
+
+
+}
 
 /**
  * Question 5:
@@ -63,13 +75,23 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question5(){
+
+	$('h2').css('color', 'green')
+
+
+}
 
 /**
  * Question 6:
  * When button 6 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
 
+
  // your answer here
+ function question6(){
+	 	$('blockquote').html('<span>no quotes</span>')
+	 }
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +103,9 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question7(){
+    $('h1').text('jQuery Ninja')
+ }
 
 /**
  * Question 8:
@@ -90,12 +115,22 @@ $("#button3").on('click', question3);
 
  // your answer here
 
+ function question8(){
+	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+}
 /**
  * Question 9:
  * When button 9 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  */
 
 // your answer here
+function question9(){
+	$('p').css({
+		color:'blue',
+		'font-family':'Georgia'
+
+	})
+} 
 
 /**
  * Question 10:
@@ -104,5 +139,13 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question10(){
+	$("p").css({
+		color: "blue",
+		 attribute: "blue"
+	})
+
+}
+
 
 
